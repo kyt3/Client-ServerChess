@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="785.208333333333" y="438.0">server.Server</node>
+    <node x="912.9999999999999" y="102.0">model.events.ModelChangedListener</node>
+    <node x="3426.0" y="102.0">model.real.Cell</node>
+    <node x="2942.0" y="102.0">model.events.ModelChangedEventWithoutMove</node>
+    <node x="2054.0" y="102.0">model.real.King</node>
+    <node x="2776.0" y="102.0">model.exceptions.ImpossibleMove</node>
+    <node x="0.0" y="515.0">model.ConsoleHelper</node>
+    <node x="1771.0" y="102.0">model.real.Rook</node>
+    <node x="0.0" y="102.0">model.events.PawnHasComeToEndOfChessBoardListener</node>
+    <node x="2680.0" y="102.0">model.Player</node>
+    <node x="564.0" y="102.0">model.events.ModelChangedEventWithoutMoveListener</node>
+    <node x="2339.0" y="102.0">model.events.PawnHasComeToEndOfChessBoardEvent</node>
+    <node x="1860.0" y="102.0">model.real.Bishop</node>
+    <node x="2003.75" y="264.0">model.Model</node>
+    <node x="2239.0" y="102.0">model.real.Knight</node>
+    <node x="357.0" y="102.0">model.events.GameFinishedListener</node>
+    <node x="3235.0" y="102.0">model.events.GameFinishedEvent</node>
+    <node x="742.875" y="356.0">server.ClientThread</node>
+    <node x="1358.0" y="102.0">model.events.NotPossibleMoveEvent</node>
+    <node x="2139.0" y="102.0">model.real.Queen</node>
+    <node x="2067.5589843750004" y="0.0">model.abstract_.Figure</node>
+    <node x="3533.5" y="264.0">model.Logic</node>
+    <node x="3397.5" y="264.0">model.real.ChessBoard</node>
+    <node x="1127.0" y="102.0">model.events.NotPossibleMoveListener</node>
+    <node x="1962.0" y="102.0">model.real.Pawn</node>
+    <node x="1573.0" y="102.0">model.events.ModelChangedEvent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.real.Pawn" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="1998.0" y="72.0" />
+      <point x="2091.9339843750004" y="72.0" />
+      <point x="-14.625" y="16.0" />
+    </edge>
+    <edge source="model.real.ChessBoard" target="model.real.Cell">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.real.Queen" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="2179.0" y="82.0" />
+      <point x="2111.4339843750004" y="82.0" />
+      <point x="4.875" y="16.0" />
+    </edge>
+    <edge source="model.Logic" target="model.abstract_.Figure">
+      <point x="17.75" y="-16.0" />
+      <point x="3586.75" y="52.0" />
+      <point x="2140.6839843750004" y="52.0" />
+      <point x="34.125" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.ModelChangedEventWithoutMove">
+      <point x="28.875" y="-16.0" />
+      <point x="2071.125" y="224.0" />
+      <point x="3078.5" y="224.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="server.Server" target="model.Model">
+      <point x="29.25" y="-16.0" />
+      <point x="853.458333333333" y="413.0" />
+      <point x="2061.5" y="413.0" />
+      <point x="19.25" y="16.0" />
+    </edge>
+    <edge source="model.Logic" target="model.real.Cell">
+      <point x="-17.75" y="-16.0" />
+      <point x="3551.25" y="244.0" />
+      <point x="3475.166666666667" y="244.0" />
+      <point x="19.666666666666686" y="16.0" />
+    </edge>
+    <edge source="model.real.Bishop" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="1901.0" y="62.0" />
+      <point x="2082.1839843750004" y="62.0" />
+      <point x="-24.375" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.NotPossibleMoveEvent">
+      <point x="-17.325000000000045" y="-16.0" />
+      <point x="2024.9249999999997" y="194.0" />
+      <point x="1455.5" y="194.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.real.Knight" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="2279.0" y="72.0" />
+      <point x="2121.1839843750004" y="72.0" />
+      <point x="14.625" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.PawnHasComeToEndOfChessBoardListener">
+      <point x="-36.575000000000045" y="-16.0" />
+      <point x="2005.6749999999997" y="244.0" />
+      <point x="252.75" y="244.0" />
+      <point x="84.25" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Rook">
+      <point x="-9.625" y="-16.0" />
+      <point x="2032.625" y="174.0" />
+      <point x="1805.5" y="174.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.PawnHasComeToEndOfChessBoardEvent">
+      <point x="13.474999999999909" y="-16.0" />
+      <point x="2055.725" y="184.0" />
+      <point x="2499.5" y="184.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.real.King" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="2086.5" y="82.0" />
+      <point x="2101.6839843750004" y="82.0" />
+      <point x="-4.875" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Cell">
+      <point x="36.575000000000045" y="-16.0" />
+      <point x="2078.825" y="244.0" />
+      <point x="3435.833333333333" y="244.0" />
+      <point x="-19.666666666666686" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.ModelChangedListener">
+      <point x="-25.02500000000009" y="-16.0" />
+      <point x="2017.225" y="214.0" />
+      <point x="1058.5" y="214.0" />
+      <point x="48.5" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.events.PawnHasComeToEndOfChessBoardListener">
+      <point x="-50.83333333333326" y="-16.0" />
+      <point x="753.0416666666667" y="336.0" />
+      <point x="84.25" y="336.0" />
+      <point x="-84.25" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.events.ModelChangedEventWithoutMoveListener">
+      <point x="-10.166666666666742" y="-16.0" />
+      <point x="793.7083333333333" y="316.0" />
+      <point x="646.25" y="316.0" />
+      <point x="-82.25" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Queen">
+      <point x="5.775000000000091" y="-16.0" />
+      <point x="2048.025" y="164.0" />
+      <point x="2179.0" y="164.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.exceptions.ImpossibleMove">
+      <point x="25.02500000000009" y="-16.0" />
+      <point x="2067.275" y="214.0" />
+      <point x="2849.0" y="214.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Bishop">
+      <point x="-5.775000000000091" y="-16.0" />
+      <point x="2036.475" y="164.0" />
+      <point x="1901.0" y="164.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.ModelChangedEventWithoutMoveListener">
+      <point x="-28.875" y="-16.0" />
+      <point x="2013.375" y="224.0" />
+      <point x="810.75" y="224.0" />
+      <point x="82.25" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Knight">
+      <point x="9.625" y="-16.0" />
+      <point x="2051.875" y="174.0" />
+      <point x="2279.0" y="174.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.King">
+      <point x="1.9249999999999545" y="-16.0" />
+      <point x="2044.1749999999997" y="154.0" />
+      <point x="2086.5" y="154.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.Player">
+      <point x="21.174999999999955" y="-16.0" />
+      <point x="2063.4249999999997" y="204.0" />
+      <point x="2737.0" y="204.0" />
+      <point x="19.0" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.GameFinishedListener">
+      <point x="-32.72499999999991" y="-16.0" />
+      <point x="2009.525" y="234.0" />
+      <point x="497.25" y="234.0" />
+      <point x="46.75" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.events.ModelChangedListener">
+      <point x="10.166666666666742" y="-16.0" />
+      <point x="814.0416666666667" y="316.0" />
+      <point x="961.4999999999999" y="316.0" />
+      <point x="-48.5" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.events.NotPossibleMoveListener">
+      <point x="30.5" y="-16.0" />
+      <point x="834.375" y="326.0" />
+      <point x="1179.75" y="326.0" />
+      <point x="-52.75" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.ModelChangedEvent">
+      <point x="-13.474999999999909" y="-16.0" />
+      <point x="2028.775" y="184.0" />
+      <point x="1662.0" y="184.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.events.GameFinishedListener">
+      <point x="-30.5" y="-16.0" />
+      <point x="773.375" y="326.0" />
+      <point x="403.75" y="326.0" />
+      <point x="-46.75" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.real.Pawn">
+      <point x="-1.9249999999999545" y="-16.0" />
+      <point x="2040.3249999999998" y="154.0" />
+      <point x="1998.0" y="154.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="server.ClientThread" target="model.Model">
+      <point x="50.83333333333333" y="-16.0" />
+      <point x="854.7083333333334" y="336.0" />
+      <point x="2023.0" y="336.0" />
+      <point x="-19.25" y="16.0" />
+    </edge>
+    <edge source="server.Server" target="server.ClientThread">
+      <point x="9.75" y="-16.0" />
+      <point x="833.958333333333" y="413.0" />
+      <point x="844.5416666666666" y="413.0" />
+      <point x="40.66666666666666" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.GameFinishedEvent">
+      <point x="32.72499999999991" y="-16.0" />
+      <point x="2074.975" y="234.0" />
+      <point x="3320.5" y="234.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="model.real.Cell" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="3455.5" y="62.0" />
+      <point x="2130.9339843750004" y="62.0" />
+      <point x="24.375" y="16.0" />
+    </edge>
+    <edge source="model.Model" target="model.events.NotPossibleMoveListener">
+      <point x="-21.174999999999955" y="-16.0" />
+      <point x="2021.0749999999998" y="204.0" />
+      <point x="1285.25" y="204.0" />
+      <point x="52.75" y="16.0" />
+    </edge>
+    <edge source="model.real.Rook" target="model.abstract_.Figure">
+      <point x="0.0" y="-16.0" />
+      <point x="1805.5" y="52.0" />
+      <point x="2072.4339843750004" y="52.0" />
+      <point x="-34.125" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="1467.6666666666665" y="462.33333333333314" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
